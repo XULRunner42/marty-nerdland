@@ -50,9 +50,6 @@ little we have given them in the first place.
 founding fathers intentions were when composing the document that becomes more and more powerless everyday known as 
 'The Constitution of the United States America'.
 
-So I vote for education, for power to the people, for the people, by the people. That is what I truly believe the 
-founding fathers intentions were when composing the document that becomes more and more powerless everyday known as 
-'The Constitution of the United States America'.
 
 
 Fourth paragraph [beeminder][] with a link example
