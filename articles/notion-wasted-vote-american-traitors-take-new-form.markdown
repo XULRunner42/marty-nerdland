@@ -1,8 +1,8 @@
-Title: The Notion of a Wasted Vote: American traitors take a new form
-Author: Limie
-Date: Sun Nov 4 2012 17:50:00 GMT-0500 (EST)
-Node: v0.8.14
+The Notion of a Wasted Vote: 
+=============
 
+The American traitor takes on a new form
+-------------
 
 I have recently found myself bombarded with this notion of 'A Wasted Vote' and I feel it necessary to just blog about 
 this notion for a bit.
@@ -36,23 +36,19 @@ into place to ensure that all people could vote, that might be a stretch, with e
 technology, no cars, no buses, no polling machines, I can almost understand how this might be necessary. However today 
 it is not.
 
-I have expressed this notion of Direct Democracy to others, people think that the general public is too stoopid. While 
-they might be right, I am also right when I say that there are powers that be that want us to be stoopid, that don't 
+I have expressed this notion of Direct Democracy to others, people think that the general public is too stoopid. 
+While they might be right, I am also right when I say that there are powers that be that want us to be stoopid, that don't 
 want us to ask questions, or even read. That much is apparant by the no child left behind act, lets pull funding from 
 schools if their kids have bad grades. Lets take their already dwindling resourses away if they can't work with what 
 little we have given them in the first place.
 
+###I vote for education, for power to the people, for the people, by the people.
 
 
 
-
-### Voting, Does it matter? I vote for education, for power to the people, for the people, by the people. That is what I truly believe the 
-founding fathers intentions were when composing the document that becomes more and more powerless everyday known as 
+That is what I truly believe the founding fathers intentions were when composing the document that becomes more and more powerless everyday known as 
 'The Constitution of the United States America'.
 
-
-
-Fourth paragraph [beeminder][] with a link example
 
 So I guess this notion of a wasted vote might be a good argument given the way our current system works. 
 The person saying that they are voting for the lesser of two evils is still self admittedly voting for evil so in my 
