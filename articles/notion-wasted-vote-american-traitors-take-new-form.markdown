@@ -7,6 +7,8 @@ Node: v0.8.14
 I have recently found myself bombarded with this notion of 'A Wasted Vote' and I feel it necessary to just blog about 
 this notion for a bit.
 
+## Header separating intro paragraph from article body
+
 The Idea of a democracy is that we get to vote, power to the people! Upon a deeper look this is what Merriam-Webster  
 has to say about the definition of democracy, just in case you're curious. After reading that I can see I'm treading in 
 some deep waters. What is it they say about politics? Stay away from religion and politics to avoid conflict? Good thing
