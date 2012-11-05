@@ -46,7 +46,7 @@ little we have given them in the first place.
 
 
 
-### Less important header
+### Voting, Does it matter?
 
 So I vote for education, for power to the people, for the people, by the people. That is what I truly believe the 
 founding fathers intentions were when composing the document that becomes more and more powerless everyday known as 
