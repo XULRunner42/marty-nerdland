@@ -7,7 +7,8 @@ The American traitor takes on a new form
 I have recently found myself bombarded with this notion of 'A Wasted Vote' and I feel it necessary to just blog about 
 this notion for a bit.
 
-The Idea of a democracy is that we get to vote, power to the people! Upon a deeper look this is what Merriam-Webster  
+The Idea of a democracy is that we get to vote, power to the people! Upon a deeper look this is what 
+[Merriam-Webster](http://www.merriam-webster.com/dictionary/democracy) 
 has to say about the definition of democracy, just in case you're curious. After reading that I can see I'm treading in 
 some deep waters. What is it they say about politics? Stay away from religion and politics to avoid conflict? Good thing
 I'm a non-conformist with a strong notion to know the unknown.
@@ -56,7 +57,9 @@ opinion that makes them no less of a traitor to not only my rights, but to yours
 
 Do you think your vote will be wasted?  
 
-Fifth and final paragraph
+
+
+
 
 For a copy of this blog, contact [kingdon][].  Thanks for reading!
 
