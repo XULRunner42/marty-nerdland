@@ -1,4 +1,4 @@
-Title: The Very First Blog Post
+Title: Loanminder Progress
 Author: Kingdon Barrett
 Date: Mon Nov 12 2012 20:03:00 GMT-0500 (EST)
 Node: v0.8.14
