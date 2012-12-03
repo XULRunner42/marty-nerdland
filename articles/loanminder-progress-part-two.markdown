@@ -1,7 +1,7 @@
 Title: Loanminder Progress part 2
 Author: Kingdon Barrett
 Date: Sun Dec 2 2012 14:50:00 GMT-0500 (EST)
-Node: v0.8.14
+Node: v0.8.15
 
 Last month's [article on Loanminder][] project set out to connect two Financial web services, but my personal affinity to hold the money in my hand made it three, with [BlockExplorer][] integration tracking my [beeminder][] [Christmas bitcoins graph][].  My last sprint was cut short because of my repeated attempts to connect through the identity verification gateway at Mohela.
 
@@ -9,7 +9,7 @@ Last month's [article on Loanminder][] project set out to connect two Financial 
 
 I locked my password, did not wait patiently for the reset e-mail, and hard locked the account when I tried and failed to reconnect too many times in quick succession.  I settled on a sqlite database maintained locally for the task of keeping a persistent tab of current balance, which presents additional challenges when I have multiple target platforms that will be sharing the same pool of accounts.
 
-I implemented capybara-webkit on blockexplorer (wild overkill) because I didn't have any other use for a mechanize gem that would not support javascript-enabled data sources.  It (did I ?)
+I implemented capybara-webkit on blockexplorer (wild overkill) because I didn't have any other use for a mechanize gem that would not support javascript-enabled data sources.  Or did I?  The next steps I took were exclusively on websites that did not need AJAX processing, and I do not currently have plans to demand the webkit supports JavaScript on any site.  Maybe I will find a reason to go back to [mint.com][] after this all works.
 
 ### Bitcoin Income
 
@@ -38,7 +38,7 @@ Tablet user might not have access to the report channel (if that meant connectin
 
 All processes are therefore smart enough to not use up the month's quota of work on their own, or with a partner, in a single day or even in the first half of a week, even with crosstalk and no backchannels, but greedy processes might try to guess how much extra, and optimistically schedule shares from a generous budget so the process can run less and less each month, or even take a vacation every few weeks.
 
-##### martyfunkhouser.csh.rit.edu
+#### martyfunkhouser.csh.rit.edu
 
 The e-mail received at martyfunkhouser is supposed to be automated.  I don't check this inbox every day.
 
@@ -58,30 +58,30 @@ The goal is to schedule 7 or 8 payments in 15 days or so, which should not be ha
 
 The tricky part is getting them both to simply leave the other half of the month alone.
 
-Even if the transactions are not detected for 3 or 4 days after they occurred, the fact that there are meant to be 7 or 8 of them means that they were small and unlikely to individually break the allowance of the bank account buffer, if two drones managed to try the same payment schedule at exactly the same time.  Otherwise, or before and after that, their detection can influence the future payments that are yet to be scheduled, and plan to make them more appropriate (smaller) fractions so that large or multiple transactions are less frequently needed; still the budget or quota is exhausted and a vacation is occasionally took.
+Even if the transactions are not detected for 3 or 4 days after they occurred, the fact that there are meant to be 7 or 8 of them means that they were small and unlikely to individually break the allowance of the bank account buffer, if two drones managed to try the same payment schedule at exactly the same time.  Otherwise, or before and after that, their detection can influence the future payments that are yet to be scheduled, and plan to make them more appropriate (smaller) fractions so that large or multiple transactions are less frequently needed
+
+Still the budget or quota is eventually exhausted and a vacation is occasionally took.
 
 ## Conclusion
 
-The successful conclusion of this experiment has hooks to pull data from two financial web service sources, a process that reconciles each data source into a "final" and archive state, and successfully adds two numbers to suggest a payment schedule.
+The successful conclusion of this experiment has hooks to pull data from two (or three) financial web service sources ([Mohela][], [BlockExplorer][], and [Mint.com][]), a process that reconciles each data source into a "final" and archive state, and at each step successfully adds two numbers to suggest a payment schedule.  The payment is either then scheduled, or detected as already scheduled, or otherwise disposed.
 
-It should also maintain a persistent state that acts at least as well as slave counter to fight duplicating events, and a counter so that account balances are able to be reflected accurately in summary e-mails that are suggesting a payment.
+Drone should also maintain a persistent state that's used to inform the fight against duplicating events, and a counter must be created on mint-exporter so that account balances are able to be reflected accurately in summary e-mails that are reporting or suggesting a payment that is to be made.
 
-### Old promises
+### Did not talk about:
 
-Last week's article to revisit:
+There is a facility to inform mint-exporter of your password without typing it by hand.  Each execution produces a csv output with records of all your transactions, and they are `INSERT OR REPLACE` entered into the sqlite record.  We are still to observe the original goal of tracking progress on a budget of scheduled transactions, whether the budget suggests a total expenditure or just a number of external debits, like Citizens Bank.
 
-The mint-exporter is going to consume your password, and if memory serves it's meant to be taken from keyboard input on the console.  If not, it's stored in a file, and each execution produces a csv output with records of all your transactions as they are counted by your banks.  You might want to consume this data in several ways, tracking progress on a budget of scheduled transactions for example, or simply counting transactions to track progress along the path toward the goal number of transactions.
+There, we simply must count transactions to track progress along the path toward the goal number of transactions, 5 per month.  A slight twist, there is a special definition of month, where the beginning of the month is either the 1st or the 10th business day of the calendar month.
 
+For mohela, we should anticipate beginning our payments on the 10th day of the calendar month, confirming and continuing them up to the statement deadline or quota terminus which is always the 21st of the calendar month.  We should compensate early if a minimum payment is not met by the schedule, or if clones can be detected working on the same channel.
 
-You can sign up for your own account with [beeminder][] and try their service.  I recommend it.  The goal in our case is to get new data points and chart them approximately daily.  If you have a loan website with payment scheduling, you can count the number of days you wait to reconcile transactions and finally-verify that they were processed successfully, resulting in a reduction of principal on the graph and a corresponding decreased cash balance on one of your accounts.
-
-The software should make it possible to see this done against the web services for each run, with an audit trail, and it should effectively schedule your payments for you.  Data on the way to beeminder or final reconciliation is kept in yaml files, occasionally moved from queue to some final state, and archived once finally reconciled.
-
-Here's an example of a graph and a goal using BeeMinder: 20-minutes.  It is intentionally left a mystery what kind of data belongs to this graph, for illustrative purposes.  At the time of this writing, the data points' values build up increasing in a linear fashion, to a "mound" where it flattens out, presumably intending to turn itself back down at a much later date.
+If they are not ever detected, no biggie, there is no problem for one worker to do all of the work alone in the month.  Data on the way to beeminder or final reconciliation is kept in yaml files, occasionally moved from queue to some final state, and archived once finally reconciled.  A scheduled payment becomes a yaml file, and on the next execution, the yaml file becomes the scheduled payment manifest at [Mohela][].
 
 [article on Loanminder]: http://marty.nerdland.info/loanminder-progress
-[BlockExplorer]: http://blockexplorer.com/
+[BlockExplorer]: http://www.blockexplorer.com/
 [Christmas bitcoins graph]: http://beeminder.com/yebyenw/goals/christmas-bitcoins
-[beeminder]: http://beeminder.com
+[beeminder]: http://www.beeminder.com
 [slush's mining pool]: http://mining.bitcoin.cz
-[Mohela]: http://mohela.com
+[Mohela]: http://www.mohela.com
+[mint.com]: http://www.mint.com
