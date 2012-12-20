@@ -12,8 +12,6 @@ For all you who contacted me, I still have your e-mail address, I am sure.
 
 We are on [icecream sandwich][] now from what I had gathered in X86 land, and I am personally now following the newer ARM-supporting (Tegra2) updates published by [teameos][].
 
-I will consider to enable comments on this page soon, if enough folks contact me and request it, so that android distribution authors can announce their Android-x86 links without needing to use Git or Github.
-
 This site is powered by [Wheat][], a git based blogging engine written in [node.JS][].  It's about my favorite blog software in the world, hope to learn to use it to more properly address a large audience.
 
 The content for this site is stored in a [git repository][] that anyone can fork, write an article, and send a pull request. If your article passes the quality standards it will be published and help support the greater android community.
