@@ -8,7 +8,20 @@
     %hr{style:"clear:both"}
     #disqus_thread.body
     :script
-      var disqus_url = "http://marty.nerdland.info/#{article.name}";
+      var disqus_shortname = 'martynerd';
+
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+      (function () {
+        var s = document.createElement('script'); s.async = true;
+        var disqus_url = "http://marty.nerdland.info/#{article.name}";
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+      }());
     %script(src="http://disqus.com/forums/martynerdland/embed.js" type="text/javascript")
     %a.view-thread(href="http://disqus.com/forums/martynerdland/?url=ref")
       View the discussion thread.
