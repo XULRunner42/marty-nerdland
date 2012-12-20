@@ -17,7 +17,7 @@ Here's an example of a graph and a goal using BeeMinder: [20-minutes][].
 
 ## Conclusion
 
-You should get as many bitcoins as you can, as soon as possible, since they seem to be experiencing exponential growth in value.  Check out bitcoin at [bitcoin][the bitcoin website].
+You should get as many bitcoins as you can, as soon as possible, since they seem to be experiencing exponential growth in value.  Check out bitcoin at [bitcoin][] (the bitcoin website) or any major news outlet.
 
 For a copy of this blog, contact [kingdon][].  Thanks for reading!
 
