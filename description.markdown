@@ -21,7 +21,7 @@ The content for this site is stored in a [git repository][] that anyone can fork
 [android-x86.org]: http://www.android-x86.org/download
 [node.js]: http://nodejs.org/
 [Wheat]: http://github.com/creationix/wheat
-[git repository]: http://github.com/xulrunner42/howtonode.org
+[git repository]: http://github.com/xulrunner42/marty-nerdland
 [dropbox public folders]: https://github.com/XULRunner42/nightlies-with
 [icecream sandwich]: http://www.android-x86.org/releases/releasenote-4-0-rc2
 [teameos]: http://jenkins.teameos.org/
