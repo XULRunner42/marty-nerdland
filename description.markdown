@@ -1,3 +1,11 @@
+### Tell us about your hardware!
+
+Are you running a variant of the Android Open Source Project?  Did it come with your device / do you have an X86 tablet?  Why not contribute a comment and tell us about [your hardware][].  This site is up to 3500 visitors just since I started counting again (not very long at all)!  If you are looking for up-to-date ROMs, it will help if we know what kind of hardware you are using.
+
+Also worthwhile to mention if you are running linux (but not Android), and if you've ever compiled your own kernel, or if you are running a customized kernel on your hardware now.
+
+If you don't tell us, we won't know: [your hardware][].
+
 ### About marty.nerdland.info
 
 Marty.nerdland.info is a site hosted by [Kingdon Barrett][] with the gracious assistance of Computer Science House.
@@ -25,3 +33,4 @@ The content for this site is stored in a [git repository][] that anyone can fork
 [dropbox public folders]: https://github.com/XULRunner42/nightlies-with
 [icecream sandwich]: http://www.android-x86.org/releases/releasenote-4-0-rc2
 [teameos]: http://jenkins.teameos.org/
+[your hardware]: /tell-about-your-hardware
