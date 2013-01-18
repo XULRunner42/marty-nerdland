@@ -1,10 +1,16 @@
+### Spotlight
+
+We would like to put [the spotlight][] on someone's best work.  So far only Samsung and ASUS are making tablets with GPS, and they don't have X86 versions.  Someone update my knowledge.  What tablets are good?  Have you ever built android on them before?  Tell us!
+
 ### Tell us about your hardware!
 
-Are you running a variant of the Android Open Source Project?  Did it come with your device / do you have an X86 tablet?  Why not contribute a comment and tell us about [your hardware][].  This site is up to 3500 visitors just since I started counting again (not very long at all)!  If you are looking for up-to-date ROMs, it will help if we know what kind of hardware you are using.
+Are you running a variant of the Android Open Source Project?  Tell us about [your hardware][].  If you are looking for up-to-date ROMs, it will help if we know what kind of hardware you are using.
 
 Also worthwhile to mention if you are running linux (but not Android), and if you've ever compiled your own kernel, or if you are running a customized kernel on your hardware now.
 
-If you don't tell us, we won't know: [your hardware][].
+If you don't tell us, we won't know:
+
+[your hardware][]
 
 ### About marty.nerdland.info
 
@@ -34,3 +40,4 @@ The content for this site is stored in a [git repository][] that anyone can fork
 [icecream sandwich]: http://www.android-x86.org/releases/releasenote-4-0-rc2
 [teameos]: http://jenkins.teameos.org/
 [your hardware]: /tell-about-your-hardware
+[the spotlight]: /the-spotlight
