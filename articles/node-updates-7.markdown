@@ -11,4 +11,4 @@ Check out [Omelette][] for NodeJS command line apps... bring semantic
 autocompletion to your users!  Featured today [on Hacker News][].
 
 [on Hacker News]: https://news.ycombinator.com/item?id=5612503
-[Omelette]: https://github.com/f/omelette
+[Omelette]: https://github.com/f/omelette?gif
