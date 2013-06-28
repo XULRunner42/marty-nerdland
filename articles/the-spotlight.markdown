@@ -7,4 +7,4 @@ We would like to put the spotlight on someone's best work...
 
 ## Spotlight
 
-So far only Samsung and ASUS are making tablets with GPS, and they don't have X86 versions.  Someone update my knowledge.  What tablets are good?  Have you ever built android on them before?  Tell us!
+So far only Samsung and ASUS [ed: and HTC] are making tablets with GPS, and they don't have X86 versions.  Someone update my knowledge.  What tablets are good?  Have you ever built android on them before?  Tell us!
