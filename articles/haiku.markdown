@@ -20,9 +20,12 @@ months ago in the comments on the [scgtrp blog][] that I found by Googling.
 
 PS. we are on Node v0.10.8 now, in FreeBSD land.
 
+PPS. I learned of [lebuzz][] which is a blog covering the latest BUZZ about BeOS and Haiku Multimedia.  Looks interesting.
+
 [thread from 2011]: http://www.freelists.org/post/haiku-development/RFC-GSOC-2011-VirtualBox-guest-additions-added-to-official-optional-packages
 [gcc4 builds]: http://haiku-files.org/unsupported-builds/x86-gcc4/
 [gcc4 hybrid builds]: http://www.haiku-files.org/unsupported-builds/x86-gcc4hybrid/
 [here]: https://github.com/scgtrp/vbox-haiku/
 [here2]: https://github.com/mmadia/vbox-haiku
 [scgtrp blog]: https://www.haiku-os.org/blog/scgtrp/2011-09-05_vbox_guest_additions_slightly_late_final_progress_report
+[lebuzz]: http://lebuzzin.wordpress.com/
