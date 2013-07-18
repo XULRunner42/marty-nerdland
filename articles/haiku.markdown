@@ -18,7 +18,7 @@ Also, you can see mentions of the code moving into the VirtualBox tree now,
 under the stewardship of Oracle where it was last reported to build OK nearly 9
 months ago in the comments on the [scgtrp blog][] that I found by Googling.
 
-PS. we are on Node v0.10.8 now, in FreeBSD land.
+<del>PS. we are on Node v0.10.8 now, in FreeBSD land.</del>
 
 PPS. I learned of [lebuzz][] which is a blog covering the latest BUZZ about BeOS and Haiku Multimedia.  Looks interesting.
 
