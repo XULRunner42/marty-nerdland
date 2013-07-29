@@ -3,7 +3,9 @@ Author: Kingdon Barrett
 Date: Thu Jul 15 2013 22:19:34 (EDT)
 Node: v0.10.13
 
-Today brings Node v0.10.13 to FreeBSD.  Here's a little bit of what I've been working on at home… Nagios core monitoring of my home network for fun and profit!  All on a Raspberry Pi Model B, running Raspbian 7.1 (Wheezy).
+Today brings Node v0.10.13 to FreeBSD.
+
+Here's a little bit of what I've been working on at home… Nagios core monitoring of my home network for fun and profit!  All on a Raspberry Pi Model B, running Raspbian 7.1 (Wheezy).
 
 ## Nagios
 
