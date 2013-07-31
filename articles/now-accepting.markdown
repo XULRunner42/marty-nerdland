@@ -1,10 +1,25 @@
-Title: Now Accepting Comments with Disqus
+Title: Code Completion with Vim
 Author: Kingdon Barrett
-Date: Sun Dec 20 2012 10:33:00 GMT-0500 (EST)
-Node: v0.8.15
+Date: Wed Jul 31 2013 03:17:30 GMT-0400 (EDT)
+Node: v0.10.15
 
-I have enabled comments via the Disqus comments plugin!  Please submit your comments, so that I can consider them in the future development of this site.  Click "Read more..." below to submit a comment.
+I've officially begun to cannibalize old blog entries so the list of news on this site does not grow too much larger than the actual amount of information contained within.  This article is about code-completion with go, vim, [YouCompleteMe][], and alternatives.  (The alternatives are, so far, just for go.  YCM is for many languages.)
 
 ## Recap
 
-No links in this article.  Just look below this paragraph, and if you see something that looks like a box to type in, go ahead and submit a comment (sign up for an account with Disqus, or I believe you may use your OpenID to log in.)  I will consider your comments in the future development of this site.  Looking for someone to take over that advertising spot as well.
+Some useful links I've found on github:
+
+- [YouCompleteMe][]
+- [Valloric/YouCompleteMe][]
+- [gmarik/vundle][]
+- [nsf/gocode][]
+- [CoreOS SDK Guide][]
+
+Been working on getting autocompletion set up in vim, but the cool kids said that vim provided by ubuntu is too old.  So, with the recent release of [CoreOS][] to HackerNews, I decided to use that to "dockerize" a vim with the necessary pieces to allow [YouCompleteMe][] to do its job.
+
+[YouCompleteMe]: http://valloric.github.io/YouCompleteMe/
+[Valloric/YouCompleteMe]: http://github.com/Valloric/YouCompleteMe/
+[gmarik/vundle]: http://github.com/gmarik/vundle/
+[nsf/gocode]: http://github.com/nsf/gocode/
+[CoreOS SDK Guide]: http://coreos.com/docs/sdk/
+[CoreOS]: http://coreos.com/
