@@ -13,6 +13,7 @@ We're not sure what's new in Android 4.3 because nobody has been able to boot it
 
 Here are the links:
 
+* [My First 4.3 Build][] - UNTESTED
 * [KatKiss JB 4.2.2 ROM][]
 * [timduru's TF101 Page][]
 
@@ -22,6 +23,7 @@ I will follow timduru's source if nobody can hook me up with the actual git repo
 
 Unfortunately I was never tracking the source code for EOS4.  As anyone may know (or maybe nobody remembers) the last time I produced nightly builds was approximately Froyo-x86, so [quite some time ago][].  I am looking forward to getting back into it.  Maybe timduru could use a bug tracker.
 
+[My First 4.3 Build]: http://downloads.nerdland.info/full_tf101-ota-eng.kbarrett.zip
 [KatKiss JB 4.2.2 ROM]: http://forum.xda-developers.com/showthread.php?t=2362764
 [timduru's TF101 page]: http://public.timduru.org/Android/tf101/KatKiss/
 [quite some time ago]: https://groups.google.com/forum/#!topic/android-x86/2PahNO90i2E
