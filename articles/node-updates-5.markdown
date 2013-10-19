@@ -1,10 +1,10 @@
 Title: Node Updates
 Author: Kingdon Barrett
-Date: Tue Mar 26 2013 10:09:33 GMT-0500 (EST)
-Node: v0.10.1
+Date: Tue Oct 19 2013 09:48:33 GMT-0400 (EDT)
+Node: v0.10.21
 
-New article for a new Node.JS version.  Today brings Node v0.10.1 to FreeBSD.
+New article for a new Node.JS version.  Today brings Node v0.10.21 to FreeBSD, with a critical security vulnerability patched as reported on HackerNews.
 
 ## Content
 
-No comment about this latest Node version.  I haven't had time to look at the last Node.JS release yet.
+No comment about this latest Node version.
