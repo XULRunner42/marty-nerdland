@@ -7,4 +7,4 @@ New article for a new Node.JS version.  Today brings Node v0.10.21 to FreeBSD, w
 
 ## Content
 
-No comment about this latest Node version.
+No comment about this latest Node version.  Also, sorry for the unexpected downtime.  I don't visit this website much, it was most likely brought down when I was testing Urbit, when `vere` ran out the memory and killed all of my background resident processes.  I lived without DNS for a little while, too!
