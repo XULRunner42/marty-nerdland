@@ -6,10 +6,11 @@ Node: v0.10.21
 Mohela, Mint, Beeminute, Credit Cards, Student Loan, Email — All of these
 things consume my attention for a minimum of 10 minutes a day, because I don't
 have a team of robots keeping track and bringing me regular status reports.
+Next year we will be fixing that.
 
 ## Content
 
-A follow-up to [Loanminder Progress part 2][], forking [URLminder][].
+A follow-up to [Loanminder Progress part 2][], forking [URLminder][].  Also see [Loanminder Progress][], the first article in the series.
 
 [Loanminder Progress]: http://marty.nerdland.info/loanminder-progress
 [Loanminder Progress part 2]: http://nerdland.info/loanminder-progress-part-two
