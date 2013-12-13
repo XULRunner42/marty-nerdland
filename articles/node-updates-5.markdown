@@ -10,8 +10,14 @@ Next year we will be fixing that.
 
 ## Content
 
-A follow-up to [Loanminder Progress part 2][], forking [URLminder][].  Also see [Loanminder Progress][], the first article in the series.
+A follow-up to [Loanminder Progress part 2][], forking [URLminder][].  Also see
+[Loanminder Progress][], the first article in the series.  We'll build on the
+Rails project distributed via Beeminder's GitHub, URLminder, which is used to
+track the number of words on this page.  I'll also take an opportunity to clean
+out all of the garbage in my sidebar (description.markdown) which counts toward
+that total.
 
 [Loanminder Progress]: http://marty.nerdland.info/loanminder-progress
 [Loanminder Progress part 2]: http://nerdland.info/loanminder-progress-part-two
 [URLminder]: https://github.com/beeminder/urlminder
+[on this page][]: //www.beeminder.com/yebyenw/goals/node-updates-5
