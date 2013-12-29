@@ -17,20 +17,28 @@ directory, which only permits a ship to run when its lock file has been cleared
 after a successful stop and commit of the ship's last running pier back to a
 `$SHIP`-named image.
 
-These are just wrapper scripts I use to more easily control urbit using docker.  The most recent version of `urbinit` is now on GitHub: [Urbinit on GitHub][].  This repository currently has some work that has not made it into any of the release archives below.
+These are just wrapper scripts I use to more easily control urbit using docker.
+The most recent version of `urbinit` is now on GitHub: [Urbinit on GitHub][].
+This repository currently has some work that has not made it into any of the
+release archives below.
 
-You can also download `urbinit` and its sister scripts from [downloads.nerdland.info][].
+You can also download `urbinit` and its sister scripts from
+[downloads.nerdland.info][].
 
-Slides from my talk are at [downloads.nerdland.info/Slides-20131101-Barcamp-CoreOS-Urbit.odp][].
+Slides from my talk are at
+[downloads.nerdland.info/Slides-20131101-Barcamp-CoreOS-Urbit.odp][].
 
 Another mirror of released files is offered right here, on nerdland.info:
 
 * [urbinit-0.3.tar.xz][]
-* [urbinit-0.3.tar.xz.md5][]: `24b051adb61bc1119d25f263b219e9d9  urbinit-0.3.tar.xz`
+* [urbinit-0.3.tar.xz.md5][]: `24b051adb61bc1119d25f263b219e9d9
+  urbinit-0.3.tar.xz`
 * [urbinit-0.2.tar.xz][]
-* [urbinit-0.2.tar.xz.md5][]: `aed056d9cc04a22457d8e5389d38e3d4  urbinit-0.2.tar.xz`
+* [urbinit-0.2.tar.xz.md5][]: `aed056d9cc04a22457d8e5389d38e3d4
+  urbinit-0.2.tar.xz`
 * [urbinit-0.1.tar.xz][]
-* [urbinit-0.1.tar.xz.md5][]: `1b3c2b51cf7081050a5c9f9c8aaf122a  urbinit-0.1.tar.xz`
+* [urbinit-0.1.tar.xz.md5][]: `1b3c2b51cf7081050a5c9f9c8aaf122a
+  urbinit-0.1.tar.xz`
 
 I hereby bestow at least [MIT][] level of freedom for the above links on all
 who read this announcement.
