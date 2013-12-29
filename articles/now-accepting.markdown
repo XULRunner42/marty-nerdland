@@ -34,7 +34,10 @@ Some useful links I've found on github:
 - [nsf/gocode][]
 - [CoreOS SDK Guide][]
 
-Been working on getting autocompletion set up in vim, but the cool kids said that vim provided by ubuntu is too old.  So, with the recent release of [CoreOS][] to HackerNews, I decided to use that to "dockerize" a vim with the necessary pieces to allow [YouCompleteMe][] to do its job.
+Been working on getting autocompletion set up in vim, but the cool kids said
+that vim provided by ubuntu is too old.  So, with the recent release of
+[CoreOS][] to HackerNews, I decided to use that to "dockerize" a vim with the
+necessary pieces to allow [YouCompleteMe][] to do its job.
 
 [YouCompleteMe]: http://valloric.github.io/YouCompleteMe/
 [Valloric/YouCompleteMe]: http://github.com/Valloric/YouCompleteMe/

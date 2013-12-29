@@ -55,8 +55,8 @@ summary mail, or dashboard page that also may suggest how I could adjust each
 of my goals to be less (or more) conservative, given the progress I'm making,
 to keep me moving in the right direction and also keeping Akrasia satisfied.
 
-[Loanminder Progress]: http://marty.nerdland.info/loanminder-progress
-[Loanminder Progress part 2]: http://nerdland.info/loanminder-progress-part-two
+[Loanminder Progress]: /loanminder-progress
+[Loanminder Progress part 2]: /loanminder-progress-part-two
 [URLminder]: https://github.com/beeminder/urlminder
 [on this very page]: //www.beeminder.com/yebyenw/goals/node-updates-5
 [20-minutes]: https://www.beeminder.com/yebyenw/20-minutes

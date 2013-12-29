@@ -3,7 +3,7 @@ Author: Kingdon Barrett
 Date: Wed Dec 26 2012 09:18:00 GMT-0500 (EST)
 Node: v0.8.16
 
-No content in this article.  Skip straight to the comments.  If there are no comments, make one.
+No content in this article.  Skip straight to the comments.
 
 ## Tell us!
 

@@ -18,14 +18,13 @@ Also, you can see mentions of the code moving into the VirtualBox tree now,
 under the stewardship of Oracle where it was last reported to build OK nearly 9
 months ago in the comments on the [scgtrp blog][] that I found by Googling.
 
-<del>PS. we are on Node v0.10.8 now, in FreeBSD land.</del>
+PS. I learned of [lebuzz][] which is a blog covering the latest BUZZ about BeOS
+and Haiku Multimedia.  Looks interesting.
 
-PPS. I learned of [lebuzz][] which is a blog covering the latest BUZZ about BeOS and Haiku Multimedia.  Looks interesting.
-
-PPPS. I found [this ticket][] that shows Haiku folks care enough to document bugs
-on platforms that care enough to share unit tests with developers.  There are
-some Haiku developers investigating KVM, Virtio, QXL, Spice, and Xen support as
-well as memory ballooning.
+PPS. I found [this ticket][] that shows Haiku folks care enough to document
+bugs on platforms that care enough to share unit tests with developers.  There
+are some Haiku developers investigating KVM, Virtio, QXL, Spice, and Xen
+support as well as memory ballooning.
 
 [thread from 2011]: http://www.freelists.org/post/haiku-development/RFC-GSOC-2011-VirtualBox-guest-additions-added-to-official-optional-packages
 [gcc4 builds]: http://haiku-files.org/unsupported-builds/x86-gcc4/
