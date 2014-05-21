@@ -102,10 +102,10 @@ ado:
         unless now_date > Date.parse('2013-09-21')
           new_value = last_value-1
         else
-          unless now.date > Date.parse('2014-05-01')
-            new_value = last_value-1
-          else
+          unless now_date > Date.parse('2014-05-01')
             new_value = last_value+1
+          else
+            new_value = last_value-1
           end
         end
         puts "sending: #{new_value}"
@@ -150,9 +150,10 @@ And finally, a Gemfile:
     gem 'awesome_print', :require => 'ap'
     gem 'sequel'
     gem 'sqlite3'
+    gem 'activesupport'
 
-That's it!  The code is at [yebyen/BeeMinute][] on GitHub.  Thanks all for
-following, stay tuned for next time.
+That's it!  The final published code is at [yebyen/BeeMinute][] on GitHub.
+Thanks all for following, stay tuned for next time.
 
 [BeeMinute]: /beeminute-20-minutes-code
 [yebyen/BeeMinute]: //github.com/yebyen/BeeMinute
