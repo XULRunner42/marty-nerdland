@@ -152,4 +152,4 @@ parameter of the function `beedata`, it is calculated in-house and stored in a
 sqlite database.  The table is called `minutes` and it has a sister, unused
 table called `items` that we can use later or just for an example.
 
-[coming post]: /placeholder
+[coming post]: /beeminute-on-github
