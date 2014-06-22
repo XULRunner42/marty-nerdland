@@ -1,7 +1,7 @@
 Title: The Exciting Conclusion of: BeeMinute
 Author: Kingdon Barrett
 Date: Tue May  20 2014 22:08:06 GMT-0400 (EDT)
-Node: v0.10.26
+Node: v0.10.29
 
 Finally a follow-up article with the missing code from my earlier story,
 [BeeMinute][].  If you are inclined toward GitHub pages or if otherwise you
