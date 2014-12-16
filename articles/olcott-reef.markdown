@@ -29,5 +29,6 @@ The Google Earth map, also contained in the link above, is from summer 2014, sho
 
  Another historical photo shows the tugboat and barge getting ready to 
 move out of Olcott Harbor and dump the reef materials to start the reef-building process.
+The photo of the two people shows Mr. Rod Hedley of Hedley Boat Co., who was the founder of the Olcott Reef, and Katherine Bailey, graduate student at SUNY Brockport who is interested in learning about and restoring the reef.
 
 https://www.dropbox.com/sh/6cbifeieq9t6u7j/AAAvKTqiJVARLAYx8nE4F8W8a?dl=0
